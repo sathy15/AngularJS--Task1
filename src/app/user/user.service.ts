@@ -4,12 +4,12 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root',
 })
-export class ProjectService {
-  private url = 'http://localhost:8080/api/projects/';
+export class UserService {
+  private url = 'https://sathyaworkspace.herokuapp.com/api/users/';
 
   constructor(private httpClient: HttpClient) {}
 
-  public getAllUsersService() {
+  public getAllUserService() {
     return this.httpClient.get(this.url);
   }
 
