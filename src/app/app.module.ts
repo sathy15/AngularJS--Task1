@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProjectComponent } from '../project/project.component';
-import { UserComponent } from './user/user.component';
+import { UserComponent } from '../user/user.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,HttpClientModule ],
