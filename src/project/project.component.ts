@@ -22,6 +22,11 @@ export class ProjectComponent implements OnInit {
        console.log(JSON.stringify(this.users));
     });
   }
+ submit(){
+   alert("submitted successsfully");
+  }
+}
+
   // addUser() {
   //   if (!this.model.id) {
   //     this.projectService.createUserService(this.model).subscribe((data) => {
@@ -50,4 +55,3 @@ export class ProjectComponent implements OnInit {
   //   alert(id);
   //   this.deleteid = id;
   // }
-}
