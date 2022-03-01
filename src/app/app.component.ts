@@ -10,9 +10,8 @@ export class AppComponent {
   isshow = false;
 
   myFunc() {
-    var num1 = (document.getElementById('exchageRateDate') as HTMLInputElement)
-      .value;
+    var num1 = (document.getElementById('id') as HTMLInputElement).value;
     // console.log(num1);
-    alert("your selected place is" +"  "+num1);
+    alert('your selected place is ' + num1);
   }
 }
