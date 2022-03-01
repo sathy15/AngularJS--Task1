@@ -5,13 +5,14 @@
       <th>Name</th>
     </tr>
   </thead>
-  <tbody >
-  <tr *ngFor="let user of users">
-  <td>{{user.id}}</td>
-  <td>{{user.name}}</td>
-</tr>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{ user.id }}</td>
+      <td>{{ user.name }}</td>
+    </tr>
   </tbody>
 </table>
 <table align="center">
-<button (click)="submit()">submit</button>
+  <button (click)="submit()">submit</button>
 </table>
+
